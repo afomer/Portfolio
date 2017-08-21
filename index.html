@@ -14,7 +14,7 @@
 <meta name="copyright" content="" />
 
 <!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="" />
+<link rel="icon" href="images/thumbnails/websiteFavicon.png">
 
 <!-- CSS -->
 <link href="main.css" rel="stylesheet" type="text/css" />
@@ -56,30 +56,13 @@
             <ul class="nav-menu right">
                 <li class="current"><a href="#home">home</a></li>
                 <li><a href="#portfolio">projects</a></li>
-                <li><a href="#contact">resume</a></li> 
+                <li><a href="#resume">resume</a></li> 
                 
             </ul><!-- .nav-menu-->
         
         </div><!-- .inner -->
 	</div><!-- #header -->
-	<!-- End Header -->
-
-    <!-- Services
-        ============================= 
-    <div id="services">
-        <div class="inner">
-        
-            <h2>My Calendar</h2>
-            <h3>  Schedule a meeting with me at <a href="http://doodle.com/afomer"> Doodle </a>
-             </h3>
-            
-            <ul>    
-                <iframe src="https://calendar.google.com/calendar/embed?src=afomeer%40gmail.com&ctz=Asia/Qatar" style="border: 0" width="935" height="600" frameborder="0" scrolling="no"></iframe>
-            </ul>
-            
-        </div><!-- .inner
-    </div><!-- #services
-    <!-- End Services -->  
+	<!-- End Header --> 
     
     <!-- About
         ============================= -->
@@ -89,7 +72,7 @@
             src="images/profile/myPhotoCirc2.png" width="200" height="200" alt="mypic-uknow" />     
 
             <!-- Short Description -->
-            <h2>I am a computer science student at Carnegie Mellon University. I am fascinated by many technologies and software development tools. Currently, I am learning about React Native, WebRTC, and peer-to-peer applications. In my free time, if I am not experimenting with some ideas, I like to watch comedy shows, get to know about psychology and to play football.</h2><br>
+            <h2>I am a computer science student at Carnegie Mellon University. I am fascinated by many technologies and software development tools. Currently, I am most focuses to learn about React Native, WebRTC, and peer-to-peer networks. Besides Tech, I am interested in psychology (especially social psychology), philosophy, and design.</h2><br>
             
             <!-- Profile -->
                     <!-- <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p> -->
@@ -129,30 +112,37 @@
         	<h1 style=" font-size: 50px;font-weight: 300;">Projects</h1>
             <h3></h3>
             
-            <!-- Portfolio Menu -->
-            <ul class="portfolio-menu filter">
-            	<li class="current all"><a href="#">All</a></li>
-                <li class="webdesign"><a href="#">College Realted</a></li>
-                <li class="graphicdesign"><a href="#">Side Projects</a></li>
-                <li class="artwork"><a href="#">Personal</a></li>
-            </ul><!-- .portfolio-menu -->
             
             <!-- Portfolio -->
             <ul class="portfolio">
-            	<li data-id="id-1" data-type="graphicdesign">
-                 <!--   <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]"> -->
-                    <a href="https://github.com/afomer/Nixt-Chatbox" target="_blank">
-                        <img src="images/nixtlogo.jpg" width="220" height="187" alt="#" />
-                    </a>
+            	
+                <li data-id="id-1" data-type="graphicdesign">
+                     <div>
+                        <a style="border-radius: 50px;" href="https://github.com/afomer/Nixt-Chatbox" target="_blank">
+                            <img src="images/nixtlogo.jpg" width="220" height="187" alt="#" />
+                        </a>
+                     </div>
                 </li>
                 
             	<li data-id="id-2" data-type="graphicdesign">
-                  <!--  <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]"> -->
-                    <a href="https://cmuqevents.appspot.com" target="_blank">
+                    <a style="border-radius: 50px;" href="https://expo.io/@afomer/eceventsapp" target="_blank">
                         <img src="images/cmuqevents.png" width="220" height="187" alt="#" />
                     </a>
                 </li>
+
+                <li data-id="id-3" data-type="graphicdesign">
+                    <a style="border-radius: 50px;background-color: #fff;" href="https://chrome.google.com/webstore/detail/commentshare/aniihnopcpimaccfoafmemphkmjklldp" target="_blank">
+                        <img src="images/commentShare2_icon128.png" width="220" height="187" alt="#" />
+                    </a>
+                </li>
                 
+
+                <li data-id="id-4" data-type="graphicdesign">
+                    <a style="border-radius: 50px;background-color: #fff;" href="https://commentshub.herokuapp.com" target="_blank">
+                        <img src="images/CommentsHubInitLogo.jpg" width="220" height="187" alt="#" />
+                    </a>
+                    
+                </li>       
             	
                 
             </ul><!-- .portfolio -->
@@ -161,14 +151,20 @@
 	</div><!-- #portfolio -->
 	<!-- End Portfolio -->
     
-    <!-- Contact 
+    <!-- resume 
         ============================= -->
-    <div id="contact">
+    <div id="resume">
         <div class="inner">
         
             <!-- Title -->
-            <h2 style=" font-size: 50px;font-weight: 300;">Resume</h2>
+            <h2 style=" font-size: 50px;font-weight: 300; padding-left: -2px">Resume</h2>
 
+            <div style="padding-left: 4px">
+                <a href="documents/resumeAug20.pdf" >PDF</a>
+                <label> - </label>
+                <a href="documents/resumeAug20.docx" >DOCX</a>
+            <div>
+            <div>
              <p>ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ</p>
                     
                     <div style="text-align:center;">
@@ -176,45 +172,13 @@
         <p style="font-family:verdana; font-size:60%; ">(Activate Adobe Reader)<p>
                        
                         
-                       <object width="900" height="500" data="documents/abubaker-omer-resumePDF.pdf"></object> 
+                       <object width="900" height="500" data="documents/resumeAug20.pdf"></object> 
                 
                 </div>
             
-            <!-- Short Description
-            <h3>Here you can send me a direct message, regarding anything in your mind: idea , project , resume . . . etc.</h3>
-            
-            <ul>
-                <li>
-                    <form action="MAILTO:afomer@andrew.cmu.com" enctype="text/plain" method="get">
-                        
-                        <input name="Name" class="" type="text" value="Name (Required)" onfocus="if(this.value == 'Name (Required)') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Name (Required)'; }" />
-                        
-                        <input name="Email" class="" type="text" value="Email (Required)" onfocus="if(this.value == 'Email (Required)') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Email (Required)'; }" />
-                        
-                        <input name="Subject" class="" type="text" value="Subject" onfocus="if(this.value == 'Subject') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Subject'; }" />
-                        
-                        <textarea name="Detail" cols="" rows="" onfocus="if(this.value == 'Talk Here . . .') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Describe your project in detail...'; }">Talk Here . . .</textarea>
-                        
-                        <input type="submit" value="submit" name="subscribe" class="submitbtn" />
-                        
-                    </form>
-                </li>
-                
-                <li>
-                    <h4>Contact Information</h4>
-                    <p>Other contact information : </p>
-                    
-                    <span><i class="li_location"></i>Doha, Qatar</span>
-                   <! For 'Phone number' <span><i class="icon-phone"></i>03528 331 86 35 </span>
-                    <span><i class="icon-mail"></i>afomer@andrew.cmu.edu</span>
-                </li>
-            </ul> 
-            -->
-            
-            
-        </div><!-- .inner -->
-    </div><!-- #contact -->
-    <!-- End Contact -->
+
+    </div><!-- #resume -->
+    <!-- End resume -->
 
 
     <a href="" class="go-top">Top</a>

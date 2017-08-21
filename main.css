@@ -454,35 +454,35 @@ ul.nav-menu li a:hover {
 
 
 /*===================================
-============= Contact ===============
+============= resume ===============
 ===================================*/
-#contact {
+#resume {
 	background: #f06c64;
 	overflow: hidden;
 	border-bottom: 6px solid #ea676b;
 	}
 
-#contact h2,
-#contact h3,
-#contact h4,
-#contact p,
-#contact span {
+#resume h2,
+#resume h3,
+#resume h4,
+#resume p,
+#resume span {
 	color: #f0d8d9;
 	}
 	
-#contact ul {
+#resume ul {
 	padding: 44px 0 0 0;
 	overflow: hidden;
 	}
 	
-#contact ul li {
+#resume ul li {
 	float: left;
 	display: inline;
 	max-width: 300px;
 	padding: 0 0 0 10px;
 	}
 
-#contact ul li:first-child {
+#resume ul li:first-child {
 	padding: 0 10px 0 0;
  	max-width: 620px;
 	}
@@ -557,18 +557,18 @@ textarea {
 	transition-duration: 0.5s;
 	}
 
-#contact p {
+#resume p {
 	margin: 0 0 25px 0;
 	text-align: justify;
 	}
 	
-#contact span {
+#resume span {
 	display: block;
 	font-size: 12px;
 	margin: 0 0 6px 0;
 	}
 
-#contact span i {
+#resume span i {
 	font-family: 'fontello';
 	margin: 0 10px 0 0;
 	font-weight: normal;
@@ -576,7 +576,7 @@ textarea {
 	vertical-align: middle;
 	}
 	
-#contact span i.li_location {
+#resume span i.li_location {
 	font-family: 'linecons';
 	}
 
